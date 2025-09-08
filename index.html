@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mi Cueva Gamer</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  </head>
+  <body>
+    <!-- Encabezado con menú -->
+    <header>
+      <nav>
+        <div class="logo">Mi Cueva Gamer</div>
+        <ul>
+          <li><a href="#home">Inicio</a></li>
+          <li><a href="#games">Juegos</a></li>
+          <li><a href="#favorites">Favoritos</a></li>
+          <li><a href="#about">Acerca de</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <!-- Sección principal -->
+      <section id="home" class="hero">
+        <div class="hero-content">
+          <!-- Banner/imagen transparente -->
+          <div class="hero-banner" data-aos="fade-down">
+            <img
+              src="img/banner-gamer.png"
+              alt="Banner Gamer"
+              class="banner-image"
+            />
+          </div>
+
+          <h1 class="hero-title" data-aos="fade-up">
+            Bienvenidos a mi Página Web de Video Juegos
+          </h1>
+          <p data-aos="fade-up" data-aos-delay="200">
+            Disfruta de esta colección de videojuegos sencillos
+          </p>
+          <div class="social-buttons" data-aos="fade-up" data-aos-delay="400">
+            <a
+              href="https://www.instagram.com/tomasgonzalezrpo/"
+              target="_blank"
+              class="social-btn"
+            >
+              <i class="fab fa-instagram"></i>
+            </a>
+            <a
+              href="https://github.com/TomasGonzalezRpo?tab=repositories"
+              target="_blank"
+              class="social-btn"
+            >
+              <i class="fab fa-github"></i>
+            </a>
+            <a
+              href="https://www.youtube.com/@TonnyGonza"
+              target="_blank"
+              class="social-btn"
+            >
+              <i class="fab fa-youtube"></i>
+            </a>
+            <a href="mailto:tomasgonza-pk@hotmail.com" class="social-btn">
+              <i class="fas fa-envelope"></i>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Banner separador -->
+      <div class="header-banner" data-aos="fade-up"></div>
+
+      <!-- Catálogo de juegos -->
+      <section id="games" class="games">
+        <h2 data-aos="fade-up">Catálogo de Juegos</h2>
+        <div class="game-grid">
+          <div class="game-card" data-aos="fade-up">
+            <div class="game-card-inner">
+              <div class="game-card-front">
+                <h3>Tres en Raya</h3>
+                <p>Una batalla contra la máquina. ¿Te crees capaz de vencer?</p>
+              </div>
+              <div class="game-card-back">
+                <a href="tres-en-raya.html" class="btn">Jugar Ahora</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="game-card" data-aos="fade-up" data-aos-delay="200">
+            <div class="game-card-inner">
+              <div class="game-card-front">
+                <h3>Piedra, Papel o Tijeras</h3>
+                <p>Soy muy bueno en este juego. ¿Podrás ganarme?</p>
+              </div>
+              <div class="game-card-back">
+                <a href="piedra-papel-tijeras.html" class="btn">Jugar Ahora</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="game-card" data-aos="fade-up" data-aos-delay="400">
+            <div class="game-card-inner">
+              <div class="game-card-front">
+                <h3>Snake</h3>
+                <p>¿Puedes hacer crecer la serpiente sin chocar?</p>
+              </div>
+              <div class="game-card-back">
+                <a href="snake.html" class="btn">Jugar Ahora</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="game-card" data-aos="fade-up" data-aos-delay="600">
+            <div class="game-card-inner">
+              <div class="game-card-front">
+                <h3>Ahorcado</h3>
+                <p>
+                  ¿Puedes adivinar la palabra antes de quedarte sin intentos?
+                </p>
+              </div>
+              <div class="game-card-back">
+                <a href="ahorcado.html" class="btn">Jugar Ahora</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Lista de juegos favoritos -->
+      <section id="favorites" class="favorites">
+        <h2 data-aos="fade-up">Mis Juegos Favoritos</h2>
+        <ul data-aos="fade-up" data-aos-delay="200">
+          <li>Half Life 2</li>
+          <li>Ratchet And Clank</li>
+          <li>Call of Duty Modern Warfare 2</li>
+          <li>The Legend of Zelda Ocarina of Time</li>
+          <li>Super Mario Bros 3</li>
+          <li>GTA 5</li>
+        </ul>
+      </section>
+
+      <!-- Acerca de mí -->
+      <section id="about" class="about">
+        <h2 class="hero-title" data-aos="fade-up">Acerca de Mí</h2>
+        <p class="text-center" data-aos="fade-up" data-aos-delay="200">
+          Soy un joven estudiante de programación/ciberseguridad. Disfruto mucho
+          de los videojuegos y por esa razón he creado esta página web.
+        </p>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+      <p>&copy; 2025 Mi Cueva Gamer. Todos los derechos reservados.</p>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 800,
+        once: true,
+      });
+    </script>
+    <script src="js/script.js"></script>
+  </body>
+</html>

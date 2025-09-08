@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Snake Game</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <link rel="stylesheet" href="css/snake.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Snake Game</h1>
+      <div id="instructions">
+        <p>Usa las flechas del teclado para mover la serpiente.</p>
+        <p>Come la comida roja para crecer y ganar puntos.</p>
+        <p>¡No choques con los bordes ni contigo mismo!</p>
+      </div>
+      <canvas id="snakeCanvas" width="400" height="400"></canvas>
+      <div class="score">Puntuación: <span id="scoreSpan">0</span></div>
+      <button id="startButton">Iniciar Juego</button>
+      <a href="index.html" class="home-button">Volver al Inicio</a>
+    </div>
+    <script src="js/snake.js"></script>
+  </body>
+</html>
